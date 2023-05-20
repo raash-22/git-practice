@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>payroll</title>
+<script type="text/javascript">
+function get_salary() {
+var hours = window.prompt("enter the number of hours");
+var hrs=parseInt(hours);
+var rate = 40;
+var rt=parseInt(rate);
+if (hours>= 50)
+{
+regpay = (40 * 50)
+overtimepay = ((rate * 1.5) * (hours - 40))
+pay = (regpay + overtimepay)
+window.alert(pay);  }
+else 
+{
+regpay = (rate * hours)
+overtimepay = 0
+window.alert(regpay); }
+}
+</script>
+</head>
+<script type="text/javascript">
+get_salary();
+</script>
+</body>
+</html>
